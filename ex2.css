@@ -1,0 +1,102 @@
+ body {
+    position: relative;
+    background-image: url("images/b_g_2.jpg");
+    background-repeat: no-repeat;
+    min-width: 320px;
+    background-size: cover;
+} 
+
+/*  ================ fevican  table ======================= */
+.fab{
+    font-size: 5vw;
+    color: green; 
+}
+
+#icon_t{
+    position: relative;
+    margin-left:80%; 
+    margin-top: -6%; 
+    margin-bottom: 5%;
+    font-size:100%;
+}
+
+
+#d1 {
+    position: relative;
+    width:100%;
+    text-align:center;
+    vertical-align:50%;
+}
+
+#p1 {
+    background-color: burlywood;
+    position: relative;
+    height: 20vw; 
+    display: table-cell;
+    vertical-align: middle;
+    width: 100vw; 
+    font-size:4vw;
+    font-family: 'Poiret One', sans-serif;
+
+}
+
+/*  profile picture and name  */
+#name{
+    position: relative;
+    margin-top:-1%;
+    font-size: 2vw;
+}
+#profile_pic{
+    position: relative;
+    width: 10vw; 
+    border: 4px green solid;
+    border-radius: 50%;
+    height: auto;
+}
+ #prof_pic_div{
+    position: relative;
+    width: 25vw;
+    height: auto;
+    margin-top: -17vw;
+} 
+/* ====================================================== */
+
+#projects{
+    position: relative;
+    margin-top: 10%;
+    margin-left:5%;
+    display: grid;
+    grid-column-gap:20px;
+    grid-template-rows: 10;
+    grid-row-gap:20px;
+    grid-template-columns: auto auto;
+}
+
+.discription{ 
+    font-family: sans-serif;
+} 
+
+
+.image{
+    margin-top: 20px;
+}
+
+.p_d{
+    position: relative;
+    margin-left: 10%;
+
+}
+
+.p_name{
+    font-size: 10vp;
+    /* margin:0%; */
+}
+
+.p_image{
+    max-width: 100%; 
+    height: auto;
+}
+
+#all{
+    padding: 0 5% 5%;
+}
